@@ -1,0 +1,50 @@
+{
+	"welcome" : "Accueil",
+
+	"english" : "English",
+    "french" : "Fran\u00e7ais",	
+	
+	"create" : "Cr\u00e9er",
+	"edit" : "Modifier",
+	"delete" : "Supprimer",
+	"delete ok" : "Suppression r\u00e9ussie",
+	"save" : "Enregistrer",
+	"save ok" : "Enregistrement r\u00e9ussi",
+	"cancel" : "Annuler",
+
+	"Book" : "Book",
+	"book.id" : "id",
+	"book.authorName" : "authorName",
+	"book.title" : "title",
+	"book.price" : "price",
+	"book.available" : "available",
+	"book.pubId" : "pubId",
+	"book.id.not.defined" : "L'identfiant de Book n'est pas d\u00E9fini",
+
+	"BookMember" : "BookMember",
+	"bookMember.id" : "id",
+	"bookMember.bookId" : "bookId",
+	"bookMember.memberId" : "memberId",
+	"bookMember.issueDate" : "issueDate",
+	"bookMember.dueDate" : "dueDate",
+	"bookMember.id.not.defined" : "L'identfiant de BookMember n'est pas d\u00E9fini",
+
+	"Member" : "Member",
+	"member.id" : "id",
+	"member.firstname" : "firstname",
+	"member.lastname" : "lastname",
+	"member.address" : "address",
+	"member.id.not.defined" : "L'identfiant de Member n'est pas d\u00E9fini",
+
+	"Publisher" : "Publisher",
+	"publisher.id" : "id",
+	"publisher.name" : "name",
+	"publisher.address" : "address",
+	"publisher.id.not.defined" : "L'identfiant de Publisher n'est pas d\u00E9fini",
+
+	"server.not.responding": "Le serveur ne r\u00e9pond pas",
+	"url.invalid": "URL invalide : {value}",
+	"url.bad": "URL incorrecte : {value}",
+
+	"app.version" : "Version"
+}

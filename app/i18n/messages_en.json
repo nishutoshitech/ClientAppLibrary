@@ -1,0 +1,50 @@
+{
+	"welcome" : "Welcome",
+	
+	"english" : "English",
+    "french" : "Fran\u00e7ais",
+	
+	"create" : "Create",
+	"edit" : "Edit",
+	"delete" : "Delete",
+	"delete ok" : "Delete ok",
+	"save" : "Save",
+	"save ok" : "Save ok",
+	"cancel" : "Cancel",
+
+	"Book" : "Book",
+	"book.id" : "id",
+	"book.authorName" : "authorName",
+	"book.title" : "title",
+	"book.price" : "price",
+	"book.available" : "available",
+	"book.pubId" : "pubId",
+	"book.id.not.defined" : "Book identifier is not defined",
+
+	"BookMember" : "BookMember",
+	"bookMember.id" : "id",
+	"bookMember.bookId" : "bookId",
+	"bookMember.memberId" : "memberId",
+	"bookMember.issueDate" : "issueDate",
+	"bookMember.dueDate" : "dueDate",
+	"bookMember.id.not.defined" : "BookMember identifier is not defined",
+
+	"Member" : "Member",
+	"member.id" : "id",
+	"member.firstname" : "firstname",
+	"member.lastname" : "lastname",
+	"member.address" : "address",
+	"member.id.not.defined" : "Member identifier is not defined",
+
+	"Publisher" : "Publisher",
+	"publisher.id" : "id",
+	"publisher.name" : "name",
+	"publisher.address" : "address",
+	"publisher.id.not.defined" : "Publisher identifier is not defined",
+	
+	"server.not.responding": "The server is not responding",
+	"url.invalid": "Invalid URL : {value}",
+	"url.bad": "Bad URL : {value}",
+
+	"app.version" : "Version"
+}

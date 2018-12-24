@@ -1,0 +1,26 @@
+		<fieldset class="col-sm-12 bordure">
+			<legend class="legende">{{ 'Member' | translate }}</legend>
+		
+			<div ng-include src="'partials/message-include.html'"></div>
+			
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>{{ 'member.id' | translate }}</th>
+						<th>{{ 'member.firstname' | translate }}</th>
+						<th>{{ 'member.lastname' | translate }}</th>
+						<th>{{ 'member.address' | translate }}</th>
+						<th><a class="btn btn-info" href='#/member/new'>{{ 'create' | translate }}</a></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="member in members">
+						<td>{{member.id}}</td>
+						<td>{{member.firstname}}</td>
+						<td>{{member.lastname}}</td>
+						<td>{{member.address}}</td>
+						<td><a class="btn btn-info" href="#/member/{{member.id}}">{{ 'edit' | translate }}</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</fieldset>

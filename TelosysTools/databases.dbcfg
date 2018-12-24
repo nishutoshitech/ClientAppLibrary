@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databases defaultId="0" maxId="4">
+<db dialect="org.hibernate.dialect.H2Dialect" driver="org.h2.Driver" id="0" isolationLevel="" name="H2 server" poolSize="1" typeName="H2" url="jdbc:h2:tcp://localhost/~/test">
+<property name="user" value="sa"/>
+<property name="password" value=""/>
+<metadata catalog="" schema="PUBLIC" table-name-exclude="" table-name-include="" table-name-pattern="%" table-types="TABLE"/>
+</db>
+</databases>
